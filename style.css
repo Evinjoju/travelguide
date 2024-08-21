@@ -1,0 +1,413 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html {
+    overflow-x: hidden;
+}
+.head{
+    background-image: url('./images/sea-landscape-nature-307008.jpg');
+    background-size: cover;
+    height: 100vh;
+} 
+.logo{
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffa500;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+}
+
+.logo span{
+    font-size: 16px;
+    color: black;
+    font-weight: 600px;
+}
+.overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 40px;
+}
+
+.content{
+    color: white;
+    max-width: 500px;
+    text-align: center;
+    padding-bottom: 15rem;
+    
+
+}
+
+
+.content h2{
+    font-size: 56px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-family: "Dancing Script", cursive;
+    
+}
+
+.content h1{
+    font-family:"Dancing Script", cursive;
+    font-size: 56px;
+    line-height: 1.2;
+    margin-bottom:15px;
+    font-weight: 700;
+    
+}
+.modal-title{
+    color: black;
+
+}
+.package-card{
+    border:1px solid #ddd;
+    border-radius: 8px;
+    overflow:hidden;
+    text-align: center;
+    padding:20px;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.package-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.package-card h2{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.package-card p{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.package-card .duration{
+    color: #FF0000;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.package-card .btn{
+    background-color: #007bff;
+    color: #fff;
+    padding:10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.more-packages{
+    display: inline-block;
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+h5{
+    font-size: 50px;
+    font-weight: 600;
+}
+.gridCulture{
+     width: 515px;
+}
+.package-card{
+    border:1px solid #ddd;
+    border-radius: 8px;
+    overflow:hidden;
+    text-align: center;
+    padding:20px;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.package-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.package-card h2{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.package-card p{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.package-card .duration{
+    color: #FF0000;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.package-card .btn{
+    background-color: #007bff;
+    color: #fff;
+    padding:10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.more-packages{
+    display: inline-block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+/* hero styles */
+.package-card{
+    border:1px solid #ddd;
+    border-radius: 8px;
+    overflow:hidden;
+    text-align: center;
+    padding:20px;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.package-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.package-card h2{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.package-card p{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.package-card .duration{
+    color: #FF0000;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.package-card .btn{
+    background-color: #007bff;
+    color: #fff;
+    padding:10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.more-packages{
+    display: inline-block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+/* tours styles */
+
+.more-details-btn{
+    margin-top:10px;
+}
+
+.festivals-section img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+/*to make image fit in the carousel slide*/
+.carousel-img{
+    height: 600px;
+    object-fit: cover;
+}
+
+@media (max-width:768px){
+    .carousel-img{
+        height: 400px;
+    }
+}
+
+/* north india tours styles*/
+.bd{
+    padding: 15px;
+}
+
+.bd img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.bd img:hover{
+    transform: scale(1.05);
+}
+
+/* features styles*/
+.service-card{
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.service-card img{
+    width:100%;
+    height: auto;
+}
+
+.service-title{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.learn-more{
+    font-size: 16px;
+    color: #6c63ff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+/* customer styles*/
+.testimonial-card{
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.testimonial-text{
+    font-style: italic;
+    color: #6c757d;
+}
+
+.customer-name{
+    margin-top:10px;
+    font-weight: bold;
+}
+
+.round-cricle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Footer and copyright styles */
+footer h5{
+    font-weight: 600;
+}
+
+.social-icons{
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.quick{
+    list-style-type: none;
+}
+
+.quick a{
+    text-decoration: none;
+}
+.headder{
+    color: orange;
+}
+.col3{
+    display: flex;
+    margin-left: 100px;
+}
+.card:hover{
+    box-shadow: 0 4px 8px rgba(36, 29, 29, 0.5);
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
+.ev:hover{
+    box-shadow: 0 4px 8px rgba(175, 173, 173, 0.5);
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(144, 141, 141);
+    color: black;
+}
+.ccooll{
+   
+    float: left;
+    border: solid 1px #111110;
+    border-radius: 1rem;
+    margin-left: 65px;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    background-color: #fdfdfa;
+}
+.ccooll:hover{
+    box-shadow: 0 4px 8px rgba(36, 29, 29, 0.5);
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(85, 82, 82, 0.946);
+    color: rgb(253, 251, 251);
+}
+.feature{
+    height: 90px;
+    width: 90px;
+    border-radius: 3rem;
+    margin-left: 3px;
+    margin-top: 15px;
+}
+.ft{
+    background-color:rgba(43, 144, 144, 0.804);
+}
+.hd{
+    font-family:'Courier New', Courier, monospace;
+}
+.ocl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
